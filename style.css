@@ -1,0 +1,106 @@
+/* ============================================
+   style.css — CSS in Action, Class Project
+   Open index.html in your browser first, then
+   change any value below, save, and refresh.
+   ============================================ */
+
+body {
+  font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+  background-color: #f9fafc;
+  color: #1f2937;
+  margin: 0;
+  height: 1.5;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h1,
+h2 {
+  color: #1a1a36;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 32px;
+  background: #1e3a8a;
+  color: white;
+}
+
+header nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 32px 24px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  margin-bottom: 24px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  background: #eef2ff;
+  color: #1e3a8a;
+  padding: 6px 14px;
+  border-radius: 999px;
+}
+
+.form-group {
+  margin-bottom: 12px;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+}
+
+input:focus {
+  outline: 2px solid #1e3a8a;
+}
+
+button {
+  padding: 8px 16px;
+  background: #1e3a8a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #16296b;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #6b7280;
+}
